@@ -29,6 +29,7 @@ server
         <meta charset="utf-8" />
         <title>Welcome to Razzle</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
         ${
           assets.client.css
             ? `<link rel="stylesheet" href="${assets.client.css}">`
