@@ -45,7 +45,7 @@ server
         <div id="root">${markup}</div>
         <div id="g_id_onload"
      data-client_id="1014800092135-srlnk201ekr3npc18tr2j66l9rr88m1v.apps.googleusercontent.com"
-     data-login_uri="http://ec2-34-228-160-124.compute-1.amazonaws.com/one_tap/oauth"
+     data-login_uri="https://g-auth-afs-process.herokuapp.com/one_tap/oauth"
      data-your_own_param_1_to_login="any_value"
      data-your_own_param_2_to_login="any_value">
 </div>
