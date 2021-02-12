@@ -25,6 +25,7 @@ class Home extends React.Component {
             <a href="https://palmer.chat">Community Slack</a>
           </li>
         </ul>
+          <code id="token"></code>
       </div>
     );
   }

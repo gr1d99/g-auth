@@ -43,7 +43,6 @@ server
     </head>
     <body>
         <div id="root">${markup}</div>
-        <code id="token"></code>
         <div id="g_id_onload"
              data-client_id="938366921015-gd6mtp2h7k6kqsn3nh77tolls2o66h0k.apps.googleusercontent.com"
              data-callback="Cb"
@@ -53,6 +52,7 @@ server
         <script>
           function Cb(r) {
               document.getElementById('token').value = r?.credential;
+              console.log(r)
           }
         </script>
     </body>
