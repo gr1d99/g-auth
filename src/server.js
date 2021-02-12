@@ -44,7 +44,7 @@ server
     <body>
         <div id="root">${markup}</div>
         <div id="g_id_onload"
-     data-client_id="1014800092135-srlnk201ekr3npc18tr2j66l9rr88m1v.apps.googleusercontent.com"
+     data-client_id="938366921015-gd6mtp2h7k6kqsn3nh77tolls2o66h0k.apps.googleusercontent.com"
      data-callback="Cb"
      data-your_own_param_1_to_login="any_value"
      data-your_own_param_2_to_login="any_value">
