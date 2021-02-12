@@ -53,6 +53,7 @@ server
           function Cb(r) {
               const el = document.getElementById('token');
               el.textContent = r.credential;
+              console.log({r})
           }
         </script>
     </body>
