@@ -51,8 +51,8 @@ server
         </div>
         <script>
           function Cb(r) {
-              document.getElementById('token').value = r?.credential;
-              console.log(r)
+              const el = document.getElementById('token');
+              el.textContent = r.credential;
           }
         </script>
     </body>
